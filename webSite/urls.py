@@ -21,4 +21,7 @@ urlpatterns = patterns('',
     url(r'^date/$',date),
     url(r'^time/(\d{1,2})/$',head_hour),
     url(r'^current_time/$',current_time),
+    url(r'^base/$',base),
+    url(r'^show_note/$',show_note),
+    url(r'^add_note/$',add_note),
 )

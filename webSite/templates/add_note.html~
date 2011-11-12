@@ -1,0 +1,10 @@
+{% extends "base.html"%}
+
+{% block title %}添加留言{% endblock %}
+
+{% block content %}<h1>添加留言</h1>{% endblock %}
+
+{% block footer %}
+<hr/>
+welcome to mysite.
+{% endblock %}

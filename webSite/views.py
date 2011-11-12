@@ -25,3 +25,12 @@ def current_time(request):
     now = datetime.datetime.now()
 
     return render_to_response('current_time.html',{'current_time':now})
+
+def base(request):
+	return render_to_response('base.html')
+
+def show_note(request):
+	return render_to_response('show_note.html')
+
+def add_note(request):
+	return render_to_response('add_note.html')

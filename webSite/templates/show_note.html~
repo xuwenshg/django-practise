@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block title %}显示留言{% endblock %}
+
+{% block content %} <h1>显示 留言</h1>{% endblock %}
+
+

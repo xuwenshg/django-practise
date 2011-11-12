@@ -1,0 +1,5 @@
+{% extends "base.html"%}
+
+{% block title %}添加留言{% endblock %}
+
+{% block footer %}添加留言{% endblock %}
